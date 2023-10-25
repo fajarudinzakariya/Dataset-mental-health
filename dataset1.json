@@ -10,12 +10,15 @@
         "hi",
         "hy",
         "hay",
+        "hayy",
+        "hayyy",
         "pagi",
         "morning",
         "siang",
         "afternoon",
         "sore",
         "malam",
+        "night",
         "bro",
         "sis",
         "chatbot",
@@ -25,8 +28,8 @@
         "selamat malam"
       ],
       "responses": [
-        "Halo! Saya Chatbot, salam kenal ya! Silakan berikan pertanyaan apa yang ingin kamu tanyakan kepada chatbot ini :)",
-        "Helo! Ini Chatbot. Ada yang bisa saya bantu? Silakan berikan pertanyaanmu."
+        "Halo! Saya Chatbot mental health, salam kenal ya! Silakan berikan pertanyaan apa yang ingin kamu tanyakan kepada chatbot ini :)",
+        "Helo! Ini Chatbot mental health. Ada yang bisa saya bantu? Silakan berikan pertanyaanmu."
       ]
     },
     {
@@ -37,6 +40,13 @@
         "dada",
         "da",
         "sea",
+        "see you",
+        "see you later",
+        "see you soon",
+        "bye",
+        "bye bye",
+        "good bye",
+        "goodbye",
         "terimakasih atas jawabanya",
         "sampai jumpa",
         "selamat tinggal",
@@ -44,6 +54,54 @@
       ],
       "responses": [
         "sampai jumpa, semoga informasinya bermanfaat ya:)"
+      ]
+    },
+    {
+      "tag": "mental health",
+      "patterns": [
+        "mental health",
+        "kesehatan mental",
+        "apa itu mental health?",
+        "apa yang dimaksud dengan kesehatan mental?",
+        "pengertian kesehatan mental",
+        "arti mental health",
+        "kesehatan jiwa"
+      ],
+      "responses": [
+        "Kesehatan mental, atau mental health, mengacu pada keadaan kesejahteraan emosional, psikologis, dan sosial seseorang. Ini mencakup kemampuan seseorang untuk mengatasi stres, berpikir dengan jernih, berinteraksi dengan orang lain, dan merasakan kebahagiaan. Kesehatan mental yang baik penting untuk kualitas hidup yang optimal dan keseimbangan dalam menjalani kehidupan sehari-hari."
+      ]
+    },
+    {
+      "tag": "peran penting psikologi dalam mental health",
+      "patterns": [
+        "peran psikologi dalam kesehatan mental",
+        "peran psikologi dalam mental health",
+        "apa peran psikologi dalam kesehatan mental?",
+        "bagaimana psikologi membantu kesehatan mental?",
+        "psikologi dan mental health",
+        "psikologi dan kesehatan jiwa",
+        "psikologi dan kesehatan mental",
+        "apa peran psikologi dalam kesehatan mental?",
+        "bagaimana psikologi membantu kesehatan mental?"
+      ],
+      "responses": [
+        "Psikologi memainkan peran penting dalam kesehatan mental. Ini melibatkan pemahaman tentang proses mental dan emosional seseorang serta memberikan alat dan strategi untuk mengatasi masalah psikologis. Psikolog dan profesional kesehatan mental dapat membantu individu dalam menjaga keseimbangan emosional, mengatasi stres, dan mengembangkan keterampilan koping yang sehat."
+      ]
+    },
+    {
+      "tag": "terapi psikologi dalam mental health",
+      "patterns": [
+        "jenis terapi psikologi dalam kesehatan mental",
+        "peran terapi psikologi untuk kesehatan mental",
+        "jenis terapi mental health",
+        "jenis terapi psikologi ",
+        "terapi psikologi dan mental health",
+        "apa peran jenis terapi psikologi dalam kesehatan mental?",
+        "bagaimana terapi psikologi membantu kesehatan mental?",
+        "jenis terapi psikologi dan kesehatan jiwa"
+      ],
+      "responses": [
+        "Jenis terapi psikologi memainkan peran penting dalam menjaga dan meningkatkan kesehatan mental. Terapi ini menyediakan berbagai pendekatan yang sesuai dengan kebutuhan individu, seperti terapi kognitif, terapi perilaku, terapi berbicara, terapi keluarga, dan terapi berbasis mindfulness. Setiap jenis terapi memiliki fokus dan metode unik untuk membantu individu mengatasi masalah emosional, psikologis, dan perilaku mereka."
       ]
     },
     {

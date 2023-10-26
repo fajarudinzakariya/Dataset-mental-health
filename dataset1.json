@@ -1,7 +1,7 @@
 {
   "intents": [
     {
-      "tag": "greeting",
+      "tag": "selamat datang",
       "patterns": [
         "hallo",
         "hai",
@@ -28,12 +28,12 @@
         "selamat malam"
       ],
       "responses": [
-        "Halo! Saya Chatbot mental health, salam kenal ya! Silakan berikan pertanyaan apa yang ingin kamu tanyakan kepada chatbot ini :)",
+        "Halo! Saya Chatbot mental health, Silakan berikan pertanyaan apa yang ingin kamu tanyakan mengenai mental health",
         "Helo! Ini Chatbot mental health. Ada yang bisa saya bantu? Silakan berikan pertanyaanmu."
       ]
     },
     {
-      "tag": "greeting",
+      "tag": "selamat tinggal",
       "patterns": [
         "bay",
         "bay bay",
@@ -48,7 +48,6 @@
         "good bye",
         "goodbye",
         "terimakasih atas jawabanya",
-        "sampai jumpa",
         "selamat tinggal",
         "sampai jumpa"
       ],
@@ -60,12 +59,12 @@
       "tag": "mental health",
       "patterns": [
         "mental health",
+        "mental health itu apa?",
+        "mental health adalah",
         "kesehatan mental",
         "apa itu mental health?",
         "apa yang dimaksud dengan kesehatan mental?",
-        "pengertian kesehatan mental",
-        "arti mental health",
-        "kesehatan jiwa"
+        "pengertian kesehatan mental"
       ],
       "responses": [
         "Kesehatan mental, atau mental health, mengacu pada keadaan kesejahteraan emosional, psikologis, dan sosial seseorang. Ini mencakup kemampuan seseorang untuk mengatasi stres, berpikir dengan jernih, berinteraksi dengan orang lain, dan merasakan kebahagiaan. Kesehatan mental yang baik penting untuk kualitas hidup yang optimal dan keseimbangan dalam menjalani kehidupan sehari-hari."
@@ -74,15 +73,12 @@
     {
       "tag": "peran penting psikologi dalam mental health",
       "patterns": [
+        "peran psikologi",
         "peran psikologi dalam kesehatan mental",
         "peran psikologi dalam mental health",
         "apa peran psikologi dalam kesehatan mental?",
         "bagaimana psikologi membantu kesehatan mental?",
-        "psikologi dan mental health",
-        "psikologi dan kesehatan jiwa",
-        "psikologi dan kesehatan mental",
-        "apa peran psikologi dalam kesehatan mental?",
-        "bagaimana psikologi membantu kesehatan mental?"
+        "apa peran psikologi dalam kesehatan mental?"
       ],
       "responses": [
         "Psikologi memainkan peran penting dalam kesehatan mental. Ini melibatkan pemahaman tentang proses mental dan emosional seseorang serta memberikan alat dan strategi untuk mengatasi masalah psikologis. Psikolog dan profesional kesehatan mental dapat membantu individu dalam menjaga keseimbangan emosional, mengatasi stres, dan mengembangkan keterampilan koping yang sehat."
@@ -95,10 +91,8 @@
         "peran terapi psikologi untuk kesehatan mental",
         "jenis terapi mental health",
         "jenis terapi psikologi ",
-        "terapi psikologi dan mental health",
-        "apa peran jenis terapi psikologi dalam kesehatan mental?",
-        "bagaimana terapi psikologi membantu kesehatan mental?",
-        "jenis terapi psikologi dan kesehatan jiwa"
+        "terapi psikologi untuk mental health",
+        "terapi psikologi membantu kesehatan mental"
       ],
       "responses": [
         "Jenis terapi psikologi memainkan peran penting dalam menjaga dan meningkatkan kesehatan mental. Terapi ini menyediakan berbagai pendekatan yang sesuai dengan kebutuhan individu, seperti terapi kognitif, terapi perilaku, terapi berbicara, terapi keluarga, dan terapi berbasis mindfulness. Setiap jenis terapi memiliki fokus dan metode unik untuk membantu individu mengatasi masalah emosional, psikologis, dan perilaku mereka."
@@ -123,8 +117,7 @@
       "responses": [
         "Stres adalah reaksi tubuh ketika menghadapi situasi yang menimbulkan tekanan, ancaman, atau tantangan. Stres bisa bersifat positif atau negatif, tergantung pada cara kita menanggapinya.",
         "Stres adalah suatu kondisi dimana seseorang mengalami ketegangan emosional dan fisiologis yang berlebihan akibat adanya tekanan dari luar diri seseorang. ",
-        "Stres adalah perasaan yang umumnya dapat kita rasakan saat berada di bawah tekanan, merasa kewalahan, atau kesulitan menghadapi suatu situasi",
-        "Stres adalah respons tubuh terhadap tekanan atau tuntutan tertentu yang dapat memengaruhi fisik dan emosi seseorang."
+        "Stres adalah perasaan yang umumnya dapat kita rasakan saat berada di bawah tekanan, merasa kewalahan, atau kesulitan menghadapi suatu situasi"
       ]
     },
     {
@@ -151,14 +144,11 @@
         "tanda-tanda stres",
         "stres tandanya apa?",
         "tanda orang terkena stres",
-        "orang terkena stres",
-        "tanda stres"
+        "orang terkena stres"
       ],
       "responses": [
         "Mengenali tanda-tanda stres pada diri sendiri melibatkan pemantauan perubahan suasana hati, perilaku, dan perasaan tubuh yang tidak biasa. Anda mungkin merasa lebih cemas atau mudah marah daripada biasanya.",
-        "tanda-tanda stres dapat bervariasi dari individu ke individu. Beberapa orang mungkin mengalami perubahan fisik seperti sakit kepala atau gangguan tidur, sementara yang lain mungkin merasa terjebak dalam pikiran negatif atau perasaan cemas yang mendalam.",
-        "Gejala fisik stres dapat mencakup sakit kepala, gangguan pencernaan, nyeri otot, peningkatan detak jantung, dan penurunan libido. Ini adalah reaksi tubuh terhadap tekanan atau tuntutan yang dapat memengaruhi kesejahteraan fisik Anda.",
-        "Tanda-tanda umum stres meliputi perubahan suasana hati, kegelisahan, ketegangan otot, gangguan tidur, dan perasaan lelah yang konstan."
+        "tanda-tanda stres dapat bervariasi dari individu ke individu. Beberapa orang mungkin mengalami perubahan fisik seperti sakit kepala atau gangguan tidur, sementara yang lain mungkin merasa terjebak dalam pikiran negatif atau perasaan cemas yang mendalam."
       ]
     },
     {
@@ -172,23 +162,24 @@
         "cemas"
       ],
       "responses": [
-        "kecemasan adalah perasaan yang timbul ketika kita khawatir atau takut akan sesuatu. Rasa takut dan panik adalah hal yang manusiawi. Setelah beberapa waktu, kita biasanya merasa lebih tenang dan nyaman."
+        "kecemasan adalah perasaan yang timbul ketika kita khawatir atau takut akan sesuatu. Rasa takut dan panik adalah hal yang manusiawi. Setelah beberapa waktu, kita biasanya merasa lebih tenang dan nyaman.",
+        "Kecemasan adalah perasaan tidak nyaman, takut, atau khawatir yang berlebihan yang disertai dengan respon otonom atau ketegangan fisiologis. Kecemasan bisa menjadi reaksi terhadap ketidakmampuan, ketidakamanan, atau ancaman yang tidak jelas atau tidak diketahui."
       ]
     },
     {
       "tag": "penyebab kecemasan",
       "patterns": [
         "sebab kecemasan",
+        "apa sebab kecemasan?",
         "penyebab kecemasan",
         "penyebab kecemasan apa?",
         "penyebab kecemasan itu apa?",
         "apa penyebab kecemasan?",
         "apa yang menyebabkan kecemasan?",
-        "apa sebab kecemasan?",
         "disebabkan oleh apa kecemasan "
       ],
       "responses": [
-        "Kecemasan adalah respons alami tubuh terhadap stres atau ancaman yang dihadapi seseorang. Penyebab kecemasan dapat bervariasi antara individu, namun ada beberapa faktor umum yang dapat memicu kecemasan. Salah satunya adalah faktor genetik, di mana seseorang memiliki kerentanan genetik terhadap kecemasan karena riwayat keluarga yang sama. Faktor lingkungan juga bisa berperan, seperti pengalaman trauma, tekanan sosial, atau perubahan hidup yang signifikan. Selain itu, gangguan kimia dalam otak seperti ketidakseimbangan neurotransmitter tertentu juga dapat menyebabkan kecemasan. Dalam beberapa kasus, kecemasan dapat muncul tanpa penyebab yang jelas, yang disebut sebagai kecemasan umum. Oleh karena itu, penyebab kecemasan dapat sangat beragam dan seringkali merupakan hasil interaksi antara faktor genetik, lingkungan, dan biologis.",
+        "Kecemasan adalah respons alami tubuh terhadap stres atau ancaman yang dihadapi seseorang. Penyebab kecemasan dapat bervariasi antara individu, namun ada beberapa faktor umum yang dapat memicu kecemasan. Salah satunya adalah faktor genetik, di mana seseorang memiliki kerentanan genetik terhadap kecemasan karena riwayat keluarga yang sama.",
         "Kecemasan dapat disebabkan oleh berbagai hal, seperti stres, trauma, atau gangguan mental. Kecemasan juga dapat disebabkan oleh kondisi medis, seperti gangguan tiroid, diabetes, atau penyakit jantung."
       ]
     },
@@ -216,12 +207,11 @@
         "apakah depresi itu?",
         "depresi adalah",
         "Apa itu depresi?",
-        "Saya merasa sangat sedih, apakah itu depresi?"
+        "apakah itu depresi?"
       ],
       "responses": [
         "Depresi adalah gangguan mental yang serius yang dapat memengaruhi perasaan, pikiran, dan perilaku seseorang. Biasanya ditandai dengan perasaan sedih yang mendalam dan kehilangan minat dalam aktivitas sehari-hari.",
-        "Depresi adalah kondisi serius, dan jika Anda merasa bahwa Anda atau seseorang yang Anda kenal menderita depresi, sangat penting untuk mencari bantuan profesional. Terapis atau psikiater dapat membantu dengan perawatan yang sesuai.",
-        "Depresi adalah kondisi yang dapat memengaruhi perasaan, pikiran, dan perilaku seseorang. Depresi dapat memengaruhi orang-orang dari segala usia, jenis kelamin, dan latar belakang. Depresi dapat memengaruhi orang-orang dari segala usia, jenis kelamin, dan latar belakang. Depresi dapat memengaruhi orang-orang dari segala usia, jenis kelamin, dan latar belakang. Depresi dapat memengaruhi orang-orang dari segala usia, jenis kelamin, dan latar belakang. Depresi dapat memengaruhi orang-orang dari segala usia, jenis kelamin, dan latar belakang. Depresi dapat memengaruhi orang-orang dari segala usia, jenis kelamin, dan latar belakang. Depresi dapat memengaruhi orang-orang dari segala usia, jenis kelamin, dan latar belakang. Depresi dapat memengaruhi orang-orang dari segala usia, jenis kelamin, dan latar belakang. Depresi dapat memengaruhi orang-orang dari segala usia, jenis kelamin, dan latar belakang."
+        "Depresi adalah kondisi serius, dan jika Anda merasa bahwa Anda atau seseorang yang Anda kenal menderita depresi, sangat penting untuk mencari bantuan profesional. Terapis atau psikiater dapat membantu dengan perawatan yang sesuai."
       ]
     },
     {
@@ -247,9 +237,7 @@
         "mengatasi depresi",
         "meredakan depresi",
         "Bagaimana cara mengatasi depresi?",
-        "Apa yang bisa saya lakukan jika saya merasa depresi?",
-        "Cara meredakan depresi",
-        "Apa langkah-langkah yang bisa diambil untuk mengatasi depresi?"
+        "Cara meredakan depresi"
       ],
       "responses": [
         "Ada berbagai cara untuk mengatasi depresi. Pertama, mencari bantuan profesional seperti seorang terapis atau psikiater adalah langkah penting. Mereka dapat membantu Anda dalam proses perawatan.",
@@ -270,21 +258,34 @@
       ],
       "responses": [
         "Penyebab depresi dapat sangat bervariasi dan kompleks. Beberapa faktor yang dapat memicu atau berkontribusi pada depresi meliputi stres yang berkepanjangan, peristiwa traumatis, keturunan genetik, perubahan hormon, dan ketidakseimbangan kimia dalam otak.",
-        "Penting untuk diingat bahwa depresi adalah gangguan multifaktor, dan tidak selalu ada satu penyebab tunggal. Setiap individu mungkin memiliki pengalaman dan faktor penyebab yang berbeda-beda.",
-        "Ketika seseorang mengalami depresi, penting untuk mencari bantuan profesional seperti seorang terapis atau psikiater. Mereka dapat membantu dalam mengevaluasi penyebab khusus dan merancang rencana perawatan yang sesuai."
+        "Penting untuk diingat bahwa depresi adalah gangguan multifaktor, dan tidak selalu ada satu penyebab tunggal. Setiap individu mungkin memiliki pengalaman dan faktor penyebab yang berbeda-beda."
+      ]
+    },
+    {
+      "tag": "gangguan makan untuk kesehatan mental",
+      "patterns": [
+        "gangguan makan",
+        "gangguan makan apa itu?",
+        "arti gangguan makan",
+        "Apa itu gangguan makan?",
+        "Pengertian gangguan makan",
+        "Gangguan makan adalah",
+        "Definisi gangguan makan"
+      ],
+      "responses": [
+        "Gangguan makan adalah kondisi psikologis yang memengaruhi pola makan seseorang dan dapat memiliki dampak serius pada kesehatan mental. Contoh gangguan makan meliputi anoreksia nervosa, bulimia nervosa, binge eating disorder, dan lainnya. Gangguan makan dapat berkembang sebagai respons terhadap tekanan emosional, perasaan tidak berharga, atau masalah kesehatan mental lainnya.",
+        "Penting untuk menyadari bahwa gangguan makan adalah masalah serius yang memerlukan perhatian medis dan dukungan kesehatan mental. Kesehatan mental yang baik adalah faktor penting dalam pemulihan dari gangguan makan. Jika Anda atau seseorang yang Anda kenal mengalami gangguan makan, segera mencari bantuan profesional untuk mendapatkan diagnosis dan perawatan yang sesuai."
       ]
     },
     {
       "tag": "bipolar",
       "patterns": [
-        " bipolar",
-        " bipolar itu apa?",
-        " bipolar apa?",
+        "bipolar",
+        "bipolar itu apa?",
         "Apa yang dimaksud dengan gangguan bipolar?",
         "Apa itu bipolar?",
         "Apa itu gangguan bipolar?",
-        "Apa yang dimaksud dengan bipolar?",
-        "bipolar"
+        "Apa yang dimaksud dengan bipolar?"
       ],
       "responses": [
         "Gangguan bipolar, juga dikenal sebagai gangguan mood bipolar, adalah gangguan mental yang ditandai oleh perubahan mood ekstrem antara episode mania (tinggi) dan episode depresi (rendah). Selama episode mania, seseorang mungkin merasa sangat bersemangat, memiliki energi berlebihan, dan mungkin menjadi impulsif. Selama episode depresi, seseorang mungkin mengalami perasaan sedih yang mendalam dan kehilangan minat dalam aktivitas sehari-hari."
@@ -300,14 +301,12 @@
         "penyebab bipolar apa?",
         "penyebab terjadinya gangguan bipolar",
         "Apa yang menyebabkan gangguan bipolar?",
-        "Faktor penyebab bipolar",
         "Apa yang memicu gangguan bipolar?",
         "Penyebab gangguan mood bipolar"
       ],
       "responses": [
         "Penyebab gangguan bipolar belum sepenuhnya dipahami, tetapi beberapa faktor yang dapat memicu atau berkontribusi pada kondisi ini meliputi keturunan genetik. Orang yang memiliki riwayat keluarga dengan gangguan bipolar mungkin memiliki risiko lebih tinggi mengembangkan kondisi ini.",
-        "Faktor lain yang dapat memengaruhi risiko gangguan bipolar meliputi ketidakseimbangan kimia dalam otak, perubahan hormon, stres yang berkepanjangan, dan penggunaan narkoba atau alkohol dalam jumlah berlebihan.",
-        "Penting untuk diingat bahwa gangguan bipolar adalah kondisi yang kompleks dan multifaktor. Tidak selalu ada satu penyebab tunggal, dan interaksi antara faktor-faktor ini dapat memainkan peran dalam perkembangan gangguan bipolar."
+        "Penyebab memengaruhi risiko gangguan bipolar meliputi ketidakseimbangan kimia dalam otak, perubahan hormon, stres yang berkepanjangan, dan penggunaan narkoba atau alkohol dalam jumlah berlebihan."
       ]
     },
     {
@@ -322,7 +321,6 @@
       ],
       "responses": [
         "Mengatasi gangguan bipolar memerlukan perawatan yang terkoordinasi dengan profesional medis. Terapi bicara seperti terapi kognitif perilaku (CBT) dapat membantu dalam mengelola perubahan mood dan perilaku yang terkait dengan gangguan bipolar.",
-        "Selain terapi bicara, obat-obatan stabil mood seperti litium, antikonvulsan, dan obat antipsikotik sering digunakan untuk mengontrol gejala gangguan bipolar. Penggunaan obat-obatan harus dipantau dan diresepkan oleh seorang profesional medis.",
         "Perubahan gaya hidup juga dapat membantu dalam mengatasi gangguan bipolar. Ini termasuk menjaga pola tidur yang baik, menghindari alkohol dan obat-obatan terlarang, serta menjalani gaya hidup sehat dengan makan makanan seimbang dan berolahraga secara teratur."
       ]
     },
@@ -349,16 +347,13 @@
         "sebab skizofrenia",
         "Apa yang menjadi penyebab skizofrenia?",
         "Faktor penyebab skizofrenia",
-        "Apa yang memicu skizofrenia?",
         "pemicu skizofrenia",
         "Apa yang dapat memicu skizofrenia?",
         "Penyebab gangguan skizofrenia"
       ],
       "responses": [
         "Penyebab skizofrenia belum sepenuhnya dipahami, tetapi penelitian menunjukkan bahwa gangguan ini kemungkinan disebabkan oleh kombinasi berbagai faktor. Faktor-faktor tersebut mencakup keturunan genetik, ketidakseimbangan kimia dalam otak, serta faktor lingkungan.",
-        "Keturunan genetik memainkan peran penting dalam risiko mengembangkan skizofrenia. Jika ada riwayat skizofrenia dalam keluarga, seseorang mungkin memiliki risiko lebih tinggi untuk mengalami gangguan ini.",
-        "Ketidakseimbangan kimia dalam otak, khususnya neurotransmiter seperti dopamin, dapat memainkan peran dalam perkembangan skizofrenia. Perubahan pada struktur dan fungsi otak juga telah terkait dengan kondisi ini.",
-        "Faktor lingkungan, seperti stres psikososial, penggunaan narkoba atau alkohol, serta komplikasi selama kehamilan atau kelahiran, juga dapat memengaruhi risiko skizofrenia pada individu tertentu."
+        "Keturunan genetik memainkan peran penting dalam risiko mengembangkan skizofrenia. Jika ada riwayat skizofrenia dalam keluarga, seseorang mungkin memiliki risiko lebih tinggi untuk mengalami gangguan ini."
       ]
     },
     {
@@ -376,6 +371,32 @@
       "responses": [
         "Menangani skizofrenia memerlukan perawatan jangka panjang dengan bantuan profesional medis. Terapi obat dengan antipsikotik sering digunakan untuk mengelola gejala skizofrenia. Obat-obatan ini membantu mengendalikan gejala seperti halusinasi dan delusi.",
         "Selain terapi obat, terapi bicara seperti terapi kognitif perilaku (CBT) dapat membantu individu dengan skizofrenia dalam mengatasi gangguan berpikir dan mengembangkan keterampilan untuk menghadapi tantangan sehari-hari."
+      ]
+    },
+    {
+      "tag": " gangguan makan",
+      "patterns": [
+        "gangguan makan",
+        "gangguan makan adalah",
+        "ciri gangguan makanan",
+        "Tanda-tanda seseorang terkena gangguan makan",
+        "Tanda-tanda gangguan makan pada seseorang"
+      ],
+      "responses": [
+        "Orang yang terkena gangguan makan dapat menunjukkan sejumlah ciri-ciri khas, termasuk:- Perubahan drastis dalam berat badan dalam waktu singkat. - Obsesi dengan berat badan, ukuran tubuh, atau jumlah kalori yang dikonsumsi. - Penolakan untuk makan atau makan dalam jumlah yang sangat sedikit. - Menyembunyikan makanan atau purging setelah makan (muntah sengaja, penggunaan laksatif, atau olahraga berlebihan). - Isolasi sosial atau perubahan perilaku, termasuk menjadi lebih tertutup atau menarik diri. - Kehilangan minat dalam aktivitas yang sebelumnya dinikmati. - Perasaan kecemasan atau stres yang terkait dengan makanan, berat badan, atau penampilan. - Perasaan kecemasan atau stres yang terkait dengan makanan, berat badan, atau penampilan."
+      ]
+    },
+    {
+      "tag": "mengatasi gangguan makan",
+      "patterns": [
+        "Cara mengatasi gangguan makan",
+        "Strategi mengatasi gangguan makan",
+        "Bagaimana merawat gangguan makan",
+        "Tindakan untuk pemulihan dari gangguan makan",
+        "Langkah-langkah mengatasi gangguan makan"
+      ],
+      "responses": [
+        "Untuk mengatasi gangguan makan, penting untuk mencari bantuan profesional seperti terapis khusus dalam gangguan makan. Terapi individu atau kelompok dapat membantu Anda mengatasi akar masalah serta mengembangkan pola makan yang sehat. Dukungan sosial dari teman dan keluarga juga memegang peran penting, dan menghindari pemicu-pemicu yang memicu perilaku gangguan makan adalah langkah penting dalam proses pemulihan."
       ]
     },
     {
@@ -401,12 +422,11 @@
         "Faktor penyebab gangguan tidur",
         "Apa yang memicu gangguan tidur?",
         "pemicu gangguan tidur",
-        "Apa yang dapat memicu gangguan tidur?",
-        "Mengapa seseorang bisa mengalami gangguan tidur?",
-        "Faktor-faktor yang mempengaruhi tidur"
+        "Apa yang dapat memicu gangguan tidur?"
       ],
       "responses": [
-        "Ada banyak faktor yang dapat menyebabkan gangguan tidur, termasuk stres, kecemasan, depresi, gangguan medis tertentu, konsumsi alkohol atau obat-obatan tertentu, serta gaya hidup yang tidak sehat. Penyebab gangguan tidur dapat bervariasi dari individu ke individu."
+        "Ada banyak faktor yang dapat menyebabkan gangguan tidur, termasuk stres, kecemasan, depresi, gangguan medis tertentu, konsumsi alkohol atau obat-obatan tertentu, serta gaya hidup yang tidak sehat. Penyebab gangguan tidur dapat bervariasi dari individu ke individu.",
+        "Gangguan tidur dapat disebabkan oleh berbagai faktor, termasuk stres dan kecemasan yang dapat mengganggu pikiran ketika mencoba tidur, gangguan kesehatan mental seperti depresi atau kecemasan yang mempengaruhi pola tidur, gangguan medis seperti sleep apnea yang mengganggu pernapasan saat tidur, serta kebiasaan tidur yang buruk seperti tidur larut malam, konsumsi kafein atau alkohol sebelum tidur, atau penggunaan elektronik sebelum tidur yang dapat mengganggu ritme sirkadian. Selain itu, faktor seperti perubahan hormon, obesitas, atau pola makan yang tidak seimbang juga dapat berperan dalam gangguan tidur."
       ]
     },
     {
@@ -420,6 +440,7 @@
         "Mengapa penting untuk mengatasi gangguan tidur?"
       ],
       "responses": [
+        "Gangguan tidur dapat memiliki dampak serius pada kesehatan fisik dan mental. Ketidakcukupan tidur atau gangguan tidur yang kronis dapat meningkatkan risiko penyakit jantung, diabetes, obesitas, serta mengganggu fungsi sistem kekebalan tubuh. Secara mental, gangguan tidur dapat menyebabkan masalah seperti stres, kecemasan, depresi, gangguan suasana hati, dan kesulitan berkonsentrasi. Selain itu, gangguan tidur juga dapat mempengaruhi kualitas hidup, produktivitas, dan hubungan sosial seseorang. Oleh karena itu, menjaga tidur yang sehat dan berkualitas sangat penting untuk kesejahteraan fisik dan mental.",
         "Gangguan tidur yang tidak diatasi dapat memiliki dampak negatif pada kesehatan fisik dan mental. Ini bisa mengakibatkan kelelahan, kesulitan berkonsentrasi, masalah kesehatan jangka panjang seperti diabetes dan penyakit jantung, serta penurunan kualitas hidup secara keseluruhan. Oleh karena itu, penting untuk mengatasi gangguan tidur dengan serius."
       ]
     },
@@ -440,7 +461,7 @@
     {
       "tag": "kesehatan emosional",
       "patterns": [
-        "emosional adalah",
+        "kesehatan emosional adalah",
         "Apa itu kesehatan emosional?",
         "Apa yang dimaksud dengan kesehatan emosional?",
         "Kesehatan emosional"
@@ -450,19 +471,9 @@
       ]
     },
     {
-      "tag": "pentingnya kesehatan emosional",
+      "tag": "menjaga kesehatan emosional",
       "patterns": [
-        "Mengapa kesehatan emosional penting?",
-        "Apa manfaat kesehatan emosional?",
-        "Kenapa perlu menjaga kesehatan emosional?"
-      ],
-      "responses": [
-        "Kesehatan emosional sangat penting karena memengaruhi kualitas hidup seseorang. Memiliki kesehatan emosional yang baik dapat membantu dalam menghadapi stres, menjaga hubungan yang sehat, dan merasa lebih bahagia. Ini juga berkontribusi pada kesejahteraan fisik dan mental secara keseluruhan."
-      ]
-    },
-    {
-      "tag": "strategi menjaga kesehatan emosional",
-      "patterns": [
+        "cara menjaga kesehatan emosional",
         "Bagaimana cara menjaga kesehatan emosional?",
         "Tips untuk kesehatan emosional yang baik",
         "Strategi untuk menjaga keseimbangan emosi"
@@ -472,168 +483,45 @@
       ]
     },
     {
-      "tag": "kesehatan mental selama krisis",
+      "tag": "mengatasi emosional",
       "patterns": [
-        "Apa yang dimaksud dengan kesehatan mental selama krisis?",
-        "Bagaimana mengatasi krisis dengan kesehatan mental yang baik?",
-        "Strategi menjaga kesehatan mental saat krisis"
+        "Bagaimana cara mengatasi emosi yang kuat?",
+        "Strategi untuk mengatasi emosi negatif",
+        "Cara mengendalikan emosi",
+        "Mengatasi stres emosional"
       ],
       "responses": [
-        "Kesehatan mental selama krisis mengacu pada kemampuan individu untuk menjaga keseimbangan emosi dan psikologis saat menghadapi situasi krisis. Ini melibatkan strategi seperti berbicara dengan seorang profesional, mencari dukungan sosial, dan menggunakan teknik relaksasi untuk mengelola stres."
+        "Mengatasi emosi yang kuat atau emosi negatif memerlukan beberapa strategi. Salah satunya adalah meningkatkan kesadaran diri terhadap emosi Anda, dengan mengenali emosi tersebut tanpa menghakiminya. Selanjutnya, Anda dapat mencoba teknik relaksasi seperti meditasi, napas dalam, atau olahraga untuk membantu mengendalikan emosi. Terapi psikologis seperti terapi kognitif perilaku juga bisa membantu Anda mengatasi emosi negatif dan mengembangkan keterampilan emosional yang lebih sehat."
+      ]
+    },
+    {
+      "tag": "trauma mental health",
+      "patterns": [
+        "trauma",
+        "trauma apa itu?",
+        "Apa yang dimaksud dengan trauma?",
+        "Apa itu trauma?",
+        "Apa yang dimaksud dengan trauma mental?",
+        "Dampak trauma pada kesehatan mental",
+        "Saya merasa traumatis, apa yang sebaiknya saya lakukan?"
+      ],
+      "responses": [
+        "Trauma adalah pengalaman yang mengganggu kesehatan mental seseorang akibat peristiwa traumatis. Dampak trauma pada kesehatan mental bisa beragam, seperti kecemasan, depresi, gangguan stres pasca-trauma (PTSD), dan gangguan mental lainnya. Penting untuk mencari bantuan jika Anda merasa traumatis. Terapi trauma, dukungan sosial, dan strategi pemulihan kesehatan mental dapat membantu mengatasi trauma yang memengaruhi kesehatan mental Anda."
       ]
     },
     {
       "tag": "mengatasi trauma",
       "patterns": [
         "Bagaimana cara mengatasi pengalaman trauma?",
+        "Cara mengatasi trauma",
+        "Tips untuk mengatasi trauma",
+        "Strategi untuk mengatasi trauma",
+        "Mengatasi trauma psikologis",
         "Menghadapi trauma",
         "Strategi mengatasi trauma psikologis"
       ],
       "responses": [
         "Mengatasi trauma psikologis memerlukan waktu dan dukungan yang tepat. Terapi trauma, seperti terapi EMDR atau terapi bicara, dapat membantu individu memproses pengalaman traumatis dan mengurangi dampak negatifnya pada kesehatan mental."
-      ]
-    },
-    {
-      "tag": "dampak krisis terhadap kesehatan mental",
-      "patterns": [
-        "Apa dampak krisis terhadap kesehatan mental?",
-        "Efek krisis terhadap kesehatan psikologis",
-        "Kesehatan mental selama bencana alam"
-      ],
-      "responses": [
-        "Krisis, seperti bencana alam atau peristiwa traumatis lainnya, dapat memiliki dampak serius pada kesehatan mental seseorang. Ini termasuk gangguan stres pasca-trauma (PTSD), kecemasan, depresi, dan kesulitan tidur. Penting untuk mencari bantuan profesional jika mengalami dampak serius akibat krisis."
-      ]
-    },
-    {
-      "tag": "dukungan sosial selama krisis",
-      "patterns": [
-        "Mengapa dukungan sosial penting selama krisis?",
-        "Bagaimana mencari dukungan selama krisis?",
-        "Peran teman dan keluarga dalam menjaga kesehatan mental saat krisis"
-      ],
-      "responses": [
-        "Dukungan sosial sangat penting selama krisis karena dapat membantu mengurangi isolasi dan memberikan dukungan emosional yang diperlukan. Teman dan keluarga dapat memainkan peran penting dalam mendukung kesehatan mental seseorang selama krisis."
-      ]
-    },
-    {
-      "tag": "mencari bantuan profesional",
-      "patterns": [
-        "Kapan sebaiknya mencari bantuan profesional?",
-        "Bagaimana cara mencari bantuan dari seorang psikolog atau terapis?",
-        "Manfaat terapi saat mengalami trauma"
-      ],
-      "responses": [
-        "Mencari bantuan profesional sebaiknya dilakukan segera jika mengalami dampak serius akibat trauma atau krisis. Terapis atau psikolog berlisensi dapat membantu individu dalam mengatasi trauma dan memulihkan kesehatan mental mereka."
-      ]
-    },
-    {
-      "tag": "pentingnya dukungan sosial",
-      "patterns": [
-        "Mengapa dukungan sosial penting untuk kesehatan mental?",
-        "Apa manfaat dukungan sosial bagi kesehatan psikologis?",
-        "Peran dukungan sosial dalam menjaga keseimbangan emosional"
-      ],
-      "responses": [
-        "Dukungan sosial adalah kunci untuk menjaga kesehatan mental yang baik. Ini membantu mengurangi isolasi sosial, memberikan dukungan emosional, dan meningkatkan kualitas hidup secara keseluruhan. Dukungan sosial juga dapat membantu individu mengatasi stres dan menghadapi tantangan dalam hidup."
-      ]
-    },
-    {
-      "tag": "dukungan dari keluarga",
-      "patterns": [
-        "Bagaimana dukungan keluarga mempengaruhi kesehatan mental?",
-        "Peran keluarga dalam menjaga keseimbangan emosional",
-        "Cara keluarga dapat mendukung individu dengan masalah kesehatan mental"
-      ],
-      "responses": [
-        "Dukungan dari keluarga memiliki dampak besar pada kesehatan mental seseorang. Keluarga dapat memberikan cinta, dukungan, dan pemahaman yang diperlukan untuk mengatasi masalah kesehatan mental. Mereka juga dapat membantu mencari bantuan profesional jika diperlukan."
-      ]
-    },
-    {
-      "tag": "dukungan dari teman",
-      "patterns": [
-        "Bagaimana teman dapat memberikan dukungan emosional?",
-        "Peran teman dalam menjaga kesehatan mental",
-        "Mengatasi masalah kesehatan mental bersama teman"
-      ],
-      "responses": [
-        "Teman dapat memberikan dukungan emosional dengan mendengarkan, berbicara, dan menunjukkan bahwa mereka peduli. Mereka juga dapat menjadi sumber dukungan yang kuat dalam mengatasi masalah kesehatan mental. Berbicara dengan teman tentang masalah kesehatan mental bisa sangat membantu."
-      ]
-    },
-    {
-      "tag": "dukungan dari komunitas",
-      "patterns": [
-        "Apa peran komunitas dalam mendukung kesehatan mental?",
-        "Bagaimana bergabung dengan komunitas yang peduli tentang kesehatan mental?",
-        "Manfaat terlibat dalam kegiatan komunitas untuk kesehatan psikologis"
-      ],
-      "responses": [
-        "Komunitas dapat menjadi sumber dukungan yang berharga untuk kesehatan mental. Bergabung dengan komunitas yang peduli tentang kesehatan mental bisa membantu individu merasa lebih terhubung dan memiliki tempat untuk berbagi pengalaman. Ini juga dapat memberikan kesempatan untuk belajar strategi pemulihan."
-      ]
-    },
-    {
-      "tag": "berbicara tentang masalah kesehatan mental",
-      "patterns": [
-        "Mengapa penting untuk berbicara tentang masalah kesehatan mental?",
-        "Cara membuka pembicaraan tentang kesehatan mental",
-        "Strategi berbicara tentang masalah psikologis kepada orang lain"
-      ],
-      "responses": [
-        "Berbicara tentang masalah kesehatan mental adalah langkah pertama menuju pemulihan. Ini mengurangi stigma dan membantu individu mendapatkan dukungan yang mereka butuhkan. Cara terbaik adalah mencari seseorang yang bisa dipercaya dan terbuka dengan mereka tentang apa yang sedang dirasakan."
-      ]
-    },
-    {
-      "tag": "kesehatan mental anak-anak",
-      "patterns": [
-        "Apa itu kesehatan mental anak-anak?",
-        "Mengapa penting untuk peduli pada kesehatan mental anak-anak?",
-        "Faktor-faktor yang memengaruhi kesehatan mental anak-anak"
-      ],
-      "responses": [
-        "Kesehatan mental anak-anak adalah kondisi mental dan emosional anak yang memengaruhi cara mereka berpikir, merasa, dan berperilaku. Peduli terhadap kesehatan mental anak-anak penting karena masa anak-anak adalah tahap penting dalam perkembangan mereka. Faktor-faktor seperti pengasuhan, lingkungan keluarga, dan pengalaman traumatis dapat memengaruhi kesehatan mental anak-anak."
-      ]
-    },
-    {
-      "tag": "gangguan ADHD pada anak-anak",
-      "patterns": [
-        "Apa itu ADHD pada anak-anak?",
-        "Gejala ADHD pada anak-anak",
-        "Bagaimana cara mengatasi ADHD pada anak-anak?"
-      ],
-      "responses": [
-        "ADHD (Attention Deficit Hyperactivity Disorder) adalah gangguan neurobiologis yang memengaruhi perhatian, impulsivitas, dan tingkat aktivitas anak-anak. Gejala ADHD meliputi kesulitan berkonsentrasi, hiperaktivitas, dan impulsivitas. Pengelolaan ADHD melibatkan terapi, pendidikan, dan, dalam beberapa kasus, obat-obatan."
-      ]
-    },
-    {
-      "tag": "gangguan makan pada remaja",
-      "patterns": [
-        "Apa itu gangguan makan pada remaja?",
-        "Gejala gangguan makan pada remaja",
-        "Bagaimana cara mendukung remaja dengan gangguan makan?"
-      ],
-      "responses": [
-        "Gangguan makan pada remaja, seperti anoreksia dan bulimia, adalah kondisi di mana remaja mengalami hubungan yang tidak sehat dengan makanan dan tubuh mereka sendiri. Gejalanya dapat mencakup diet yang tidak sehat, muntah, atau berlebihan berolahraga. Mendukung remaja dengan gangguan makan melibatkan dukungan psikologis, perawatan medis, dan dukungan keluarga yang positif."
-      ]
-    },
-    {
-      "tag": "perilaku antisosial pada remaja",
-      "patterns": [
-        "Apa itu perilaku antisosial pada remaja?",
-        "Gejala perilaku antisosial pada remaja",
-        "Bagaimana cara mengatasi perilaku antisosial pada remaja?"
-      ],
-      "responses": [
-        "Perilaku antisosial pada remaja adalah kondisi di mana remaja menunjukkan perilaku yang melanggar norma sosial dan hukum. Gejala perilaku antisosial dapat mencakup tindakan kriminal, agresi, dan kurangnya empati. Mengatasi perilaku antisosial pada remaja melibatkan terapi perilaku, dukungan keluarga, dan pendekatan yang konsisten."
-      ]
-    },
-    {
-      "tag": "dukungan perkembangan mental yang sehat",
-      "patterns": [
-        "Bagaimana mendukung perkembangan mental yang sehat pada anak-anak dan remaja?",
-        "Peran keluarga dalam perkembangan mental anak-anak",
-        "Pentingnya pendidikan kesehatan mental di sekolah"
-      ],
-      "responses": [
-        "Dukungan perkembangan mental yang sehat pada anak-anak dan remaja melibatkan komunikasi terbuka dan pengertian dari keluarga dan lingkungan sekolah. Pendidikan kesehatan mental di sekolah juga dapat membantu anak-anak dan remaja memahami emosi mereka, mengatasi stres, dan membangun keterampilan sosial yang sehat."
       ]
     }
   ]
